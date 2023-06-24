@@ -2,7 +2,9 @@ import hikari, lightbulb, random, json, os, openai, requests
 from PIL import Image
 from io import BytesIO
 # Defining the bot
-bot = lightbulb.BotApp(token='BOT TOKEN', default_enabled_guilds=GUILD ID, intents=hikari.Intents.ALL)
+guild_id = guild ID
+token = token
+bot = lightbulb.BotApp(token=token default_enabled_guilds=guild_id, intents=hikari.Intents.ALL)
 
 # OpenAI token
 openai.api_key = 'OPEN AI KEY'
