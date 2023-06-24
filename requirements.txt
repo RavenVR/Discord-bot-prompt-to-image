@@ -1,0 +1,7 @@
+requests
+PIL
+openai
+hikari-lightbulb
+hikari
+io
+json
